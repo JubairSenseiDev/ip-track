@@ -2,9 +2,9 @@
 
 # 🤖 Telegram IP Track Bot
 
-A simple and modern Telegram bot for looking up public IP information.
+A simple and modern Telegram bot for IP address lookup.
 
-Built with **Python**, **python-telegram-bot**, and **ip-api.com**.
+Built with **Python** and **python-telegram-bot**.
 
 </div>
 
@@ -12,88 +12,127 @@ Built with **Python**, **python-telegram-bot**, and **ip-api.com**.
 
 ## ✨ Features
 
-- 🌍 Lookup any IPv4 or IPv6 address
-- 🌐 Check server public IP
-- 📜 Lookup history
-- 📍 Google Maps location
-- ⚡ Fast API response
-- 🎨 Modern Inline Keyboard UI
-- 🛡️ IP address validation
-- 📝 Logging support
-- 🐧 Linux & Termux compatible
+- 🌍 Lookup any IPv4 & IPv6 address
+- 🌐 Server Public IP
+- 📜 Lookup History
+- 📍 Google Maps Link
+- ⚡ Fast Response
+- 🛡️ IP Validation
+- 📝 Logging Support
+- 🐧 Linux & Termux Compatible
 
 ---
 
-## 📦 Update Packages
+# 🚀 Installation
+
+## 1️⃣ Update Package Lists
 
 ```bash
 apt update && apt upgrade
 ```
 
+Updates package information and upgrades installed packages.
+
 ---
 
-## 🛠 Install Required Packages
+## 2️⃣ Install Required Packages
 
 ```bash
 apt install python git
 ```
 
+- **Python** → Required to run the bot.
+- **Git** → Used to download the project.
+
 ---
 
-## 📥 Clone Repository
+## 3️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/JubairSenseiDev/ip-track
 ```
 
+Downloads the latest source code from GitHub.
+
 ---
 
-## 📂 Open Bot Folder
+## 4️⃣ Open Bot Folder
 
 ```bash
 cd ip-track/telegram-bot
 ```
 
+Moves into the bot directory.
+
 ---
 
-## 📚 Install Dependencies
-
-```bash
-pip install python-telegram-bot httpx
-```
-
-Or
+## 5️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
+Installs all required Python libraries.
+
 ---
 
-## ⚙️ Configure Bot
+## 6️⃣ Configure Bot
 
 Edit **config.json**
 
 ```json
 {
     "BOT_TOKEN": "YOUR_BOT_TOKEN",
-    "ADMIN_ID": "YOUR_TELEGRAM_ID"
+    "ADMIN_ID": "YOUR_TELEGRAM_USER_ID"
 }
 ```
 
 ---
 
-## ▶ Run
+## 7️⃣ Run the Bot
 
 ```bash
 python3 bot.py
 ```
 
+Starts the Telegram bot.
+
 ---
 
-## 📁 Project Structure
+# 📱 Main Menu
 
+- 🌍 Lookup IP
+- 🌐 Server Public IP
+- 📜 Lookup History
+- ℹ️ About
+
+---
+
+# 📦 Requirements
+
+- Python 3.10+
+- Internet Connection
+- Telegram Bot Token
+- Linux / Termux
+
+---
+
+# 📚 Dependencies
+
+- python-telegram-bot
+- httpx
+
+Install manually:
+
+```bash
+pip install python-telegram-bot httpx
 ```
+
+---
+
+# 📂 Project Structure
+
+```text
 telegram-bot/
 ├── bot.py
 ├── config.json
@@ -103,7 +142,16 @@ telegram-bot/
 
 ---
 
-## 🤖 Commands
+# 📡 APIs
+
+| API | Purpose |
+|------|---------|
+| ip-api.com | IP Geolocation |
+| api.ipify.org | Server Public IP |
+
+---
+
+# 🤖 Commands
 
 | Command | Description |
 |---------|-------------|
@@ -111,36 +159,18 @@ telegram-bot/
 
 ---
 
-## 📱 Main Menu
-
-- 🌍 Lookup IP
-- 🌐 My Public IP
-- 📜 Lookup History
-- ℹ️ About
-
----
-
-## 📡 API Used
-
-- **ip-api.com** – IP Geolocation
-- **api.ipify.org** – Public IP Address
-
----
-
-## 📋 Requirements
-
-- Python 3.10+
-- Internet Connection
-- Telegram Bot Token
-
----
-
-## ❤️ Developer
+# ❤️ Developer
 
 **JubairSenseiDev**
 
 GitHub:
 https://github.com/JubairSenseiDev
+
+---
+
+## 📄 License
+
+This project is released under the MIT License.
 
 ---
 
