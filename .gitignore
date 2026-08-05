@@ -1,0 +1,4 @@
+node_modules/
+results.txt
+telegram-bot/config.json
+telegram-bot-nodejs/config.json

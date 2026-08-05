@@ -1,0 +1,13 @@
+{
+  "name": "ip-track-telegram-bot",
+  "version": "2.0.0",
+  "description": "Telegram IP Lookup Bot built with Node.js for Termux",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
